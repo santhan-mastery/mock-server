@@ -21,6 +21,7 @@
     "avsc": "^5.7.4",
     "fastify": "^3.28.0",
     "fastify-cli": "^2.15.0",
+    "fastify-cors": "^6.0.3",
     "fastify-now": "^2.7.1",
     "global": "^4.4.0",
     "json-parser": "^3.1.2",

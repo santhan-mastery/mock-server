@@ -3,9 +3,14 @@ const fastify = require('fastify')()
 const now = require('fastify-now');
 const path = require("path");
 
+fastify.register(require("fastify-cors"), {
+  origin: "*",
+  methods: ["POST", "GET", "PUT", "DELETE"]
+});
+
 fastify.register(now, {
     routesFolder: path.join(__dirname, './routes'),
-  });
+});
 
 // Declare a route
 fastify.get('/', async (request, reply) => {
