@@ -1,0 +1,30 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhan-mastery/mock-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhan-mastery/mock-server/issues"
+  },
+  "homepage": "https://github.com/santhan-mastery/mock-server#readme",
+  "dependencies": {
+    "avro-schema-registry": "^2.1.5",
+    "avsc": "^5.7.4",
+    "fastify": "^3.28.0",
+    "fastify-cli": "^2.15.0",
+    "fastify-now": "^2.7.1",
+    "global": "^4.4.0",
+    "json-parser": "^3.1.2",
+    "kafka-node": "^5.0.0",
+    "request": "^2.88.2"
+  }
+}
