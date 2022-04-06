@@ -1,6 +1,14 @@
 const registryUrl = 'http://localhost:8081'
 const kakfaBroker = 'localhost:9092'
 
+
+///////////////////////// TEST DATA /////////////////////////
+// {
+//     "topicName": "<your-topic-name>",
+//     "key": "testkey",
+//     "value": { "hello" : "world" }
+// }
+
 const avro = require('avsc')
 const registry = require('avro-schema-registry')(registryUrl);
 const kafka = require('kafka-node')
