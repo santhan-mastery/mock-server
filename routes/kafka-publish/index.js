@@ -45,8 +45,8 @@ async function POST(req, res){
     
     producer.send(payloads, function (err, data) {
         res.status(200).send(err || data);
-        if (!err)
-            producer.close()
+        // if (!err)
+        //     producer.close()
     })
 }
 
